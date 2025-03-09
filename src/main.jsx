@@ -1,12 +1,12 @@
-import { StrictMode } from 'react';
-import { createRoot } from 'react-dom/client';
-import { Todo } from './Todo';
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import { Todo } from "./Todo";
 
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
 
 root.render(
-  <strictMode>
+  <StrictMode>
     <Todo />
-  </strictMode>
+  </StrictMode>
 );
